@@ -13,7 +13,7 @@ o The custom encryption adds SALTS to the original string
 
 o Afterwards the string is sliced in equal parts, therefore creating a “table” where every slice is a row
 
-o The string is read not row-to-row, but column-to-column, such that Hello World-&gt;Hore llwdlo
+o We invert the table, such that Hello World-&gt;Hore llwdlo
 
 o Afterwards the string is encoded using Base64 algorithm
 
